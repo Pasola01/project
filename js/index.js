@@ -46,7 +46,7 @@ if (num < 49) {
     console.log('Ok');
 }
 
-(num == 50) ? console.log('Ok') : console.log('Error');
+// (num == 50) ? console.log('Ok') : console.log('Error');
 
 const sum = 100;
 
@@ -57,7 +57,7 @@ switch (sum) {
     case 70:
         console.log('Ico');
         break;
-    case 1000:
+    case 100:
         console.log('Ok');
         break;
     default:
