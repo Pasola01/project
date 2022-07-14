@@ -1,25 +1,8 @@
 "use strict";
 
-function first() {
-    setTimeout(function() {
-        console.log(1)
-    }, 500);
-}
+const arr = [1, 2, 3, 4, 5];
 
-function second() {
-    console.log(2);
-}
+arr.forEach(function(item, i, arr) {
+    console.log(`${i}; ${item} внутри масива ${arr}`);
+});
 
-first();
-second();
-
-function learnJS(lang, callback) {
-    console.log(`Im learning ${lang}`);
-    callback();
-}
-
-function done() {
-    console.log('Im done');
-}
-
-learnJS('JavaScript',done);
